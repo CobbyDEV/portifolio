@@ -27,7 +27,7 @@ header {
     height: 100%;
     object-fit: cover;
     opacity: 0.5;
-    animation: zoom 25s; /* zoom =nome  25s= duração */
+    animation: zoom 25s; /*infinite; /* zoom =nome  25s= duração infinite = animação com lo*/
 }
 @keyframes zoom {
     0% { /* animação vai de 0 a 100% então quero que no começo inicio : */
