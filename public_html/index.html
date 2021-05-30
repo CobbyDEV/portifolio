@@ -15,6 +15,14 @@
 </head>
 <body>
     <div class="container">
+        <!-- div.hamburguer>div.line#line*3 cria 1 div com 3 div dentro com class e id  -->  
+        <div class="hamburguer">
+            <div class="line" id="line1"></div>
+            <div class="line" id="line2"></div>
+            <div class="line" id="line3"></div>
+            <span>Fechar</span>
+        </div>
+
         <header>
             <div class="img-wrapper">
                 <img src="/public_html/imagem/bg.jpg" alt="">
@@ -25,6 +33,25 @@
                 <button>Saiba mais</button>
             </div>
         </header>
+       <!--  div.sidebar>nav>ul.menu>(li.menu-item>a.menu-link)*5 -->
+       <div class="sidebar">
+           <nav>
+               <ul class="menu">
+                   <li class="menu-item"><a href="#" class="menu-link">Home</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">Conhecimento</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">Projeto</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">Contato</a></li>
+                   <li class="menu-item"><a href="#" class="menu-link">Orçamento</a></li>
+               </ul>
+           </nav>
+          <!-- div.social-media>(a>i.fab.fa)*3 oque eu usei  -->
+          <div class="social-media">
+              <a href="#"><i class="fab fa-whatsapp"></i></a>
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+       </div>
     </div>
 </body>
+<script src="script.js"></script>
 </html>
