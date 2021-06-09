@@ -1,13 +1,10 @@
-# portifolio
+# Portifólio
 
-Portifolio Cobby
-## Tarefas
+Guilherme Matias (Cobby)
 
-O controle das tarefas desse projeto será realizado no github
+Olá ! Bem Vindo ao meu portifólio :star2:
 
-## Ícones
-
-:mag_right: nova funcionalidade projetos and conhecimento
+:collision: nova funcionalidade projeto quase pronto
 :up: atualização
 :honeybee:correção de bug
 :checkered_flag: release
